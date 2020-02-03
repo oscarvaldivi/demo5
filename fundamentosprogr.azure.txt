@@ -1,0 +1,432 @@
+PROGRAMAR ES: 
+Analizar problema y necesidad para crear un programa que resuelva.
+
+diseár estructura que resuelva necesidad corporativa.
+
+Qué debo pensar:
+
+
+ANALIZAR
+en base a estos 3 puntos...
+
+#1 requerimientos funcionales
+
+"lo que el cliente espera de la solución
+El servicio que el usuario espera de la aplicación"
+
+
+#2 contexto o mundo del problema
+
+"un mismo problema puede tener diferentes contextos y necesitar diferentes soluciones."
+
+#3 requerimiento no funcional
+
+"restricciones o condiciones que se limitan por el cliente por la posible solución." 
+
+
+DISEÑO DE SOLUCIÓN
+
+CONSTRUCCIÓN DE SOLUCIÓN
+_____________________________
+                       
+codigo nativo = codigo máquina
+
+______
+LA FASE DE SOLUCION I ES: 
+
+ANALISIS -> 
+DISEÑO
+CODIFICACIÓN
+EJECUCIÓN, VERIFICACIÓN Y DEPURACIÓN
+
+LA FASE DE SOLUCIÓN II: 
+
+MANTENIMIENTO
+DOCUMENTACIÓN
+_____________
+
+
+
+
+clase de la tarde: 
+
+Metodologia : 
+
+conceptos y características de los algormitmos 
+
+programar estructurada
+
+programar modular
+
+programacion orientada a objetos
+
+¿QUE ES UN ALGORITMO?
+método para resolver un problema.
+
+caracteristica: 
+
+algoritmo + datos = programar
+
+#1 Debe ser preciso e indicar un orden de pasos
+(bloques de sentencia)
+
+#2 Definición clara
+
+#3 Debe ser finito. Debe terminar en algun momento despues de un numero finito de pasos.
+
+
+*un algoritmo puede ser un método o función 
+
+
+ENTRADA: parametros
+PROCESO: bloque de sentencias
+SALIDA:  return
+
+
+
+PROGRAMACION ESTRUCTURADA: 
+
+ES LENGUAJE POR PROCEDIMIENTO 
+INSTRUCIONES SECUENCIALES
+EFICIENTE PARA PEUQEÑOS
+
+poco eficiente a programas grandes
+
+- procedimientos, funcionales, subrprogramas
+programacion orientada a procedimientos
+Modulos, que es agrupacion de procedimientos.
+
+(programacion modular, viva hay un monton y funcionando)
+
+PROGRAMACION MODULAR
+
+metodo de diseño flexible 
+aumenta productividad 
+se puede devidir en modulos indepedientes
+
+se ve en banca, compañias de seguro, etc 
+
+
+PROGRAMACION ORIENTADA A OBJETOS
+
+Enfasis en los datos que maneja
+
+Unificamos en un módulo que operan un tipo de dato.
+
+El módulo recibe el nombre del objeto. 
+
+Las funciones del objeto se llaman funciones o método
+
+los datos del objeto se conocen con el nombre de variables,
+atributos o propiedades. 
+
+
+funciones = método = procedimiento.
+(fragmento de codigos o de sentencias que resuelven problemas, algoritmo) 
+
+
+CARACTERISTICAS DE OBJETO:
+
+Abstraccion 
+Encapsulado de datos
+herencia
+polimorfismo
+
+EJEM DE HERENCIA : 
+
+ANIMAL:
+patas
+color
+tamaño
+peso
+
+...
+  ..duerme()
+  ..corre ()
+  ..salta ()
+
+AVE: ANIMAL
+
+_______________-
+
+REQUERIMIENTOS FUNCIONALES : 
+es lo que hay que saber antes de construir el programa que resuelva el problema.
+DESCRIBE 4 ELEMENTOS.-
+
+Identifica o nombre
+La tarea de identificar que elementos intervienen en el problema. 
+
+(un ejemplo sería, que variables, funciones se tendrian que usar para realizar una accion) 
+
+Explicacion de la operatividad del programa a realizar.
+Entrada de datos
+Resultado de la operación (modifcar valores o calculo)
+
+
+Identidad es igual a objetos pero objeto no es igual a clase    y clases 
+
+ 
+buscar como hacer representaciones UML 
+
+___
+TIPOS DE DATOS: 
+
+se definen a través de los atributos de objetos 
+
+como numericos, representacion de cadenas literales, fechas, objetos. 
+
+los métodos identifican 
+
+TIPO : nombre
+       variable
+       propiedades
+
+MATRICES y COLECCIONES : 
+
+matriz o colección(Array o Arreglo) 
+es un tipo de dato que define una estructura contenedora de diferente información o valores
+
+[] los corchetes simbolizan los arrays o colecciones
+() simbolizan los objetos 
+
+string[]dias= lunes, martes, miercoles, jueves
+
+
+variable de tipo array 
+(coleccion de algo, numero, de alumnos, texto, colores) etc
+
+y en cada posicion hay diferentes datos y se empieza de 0 
+
+PintaColores [2,1]
+
+las posiciones de un array desde 0 hasta el numero de elementos -1 
+
+
+
+ejercicio de Encuesta : 
+
+Requerimiento funcional 1 : 
+
+- Recogida de datos.
+
+- Visualizar el promedio total de encuestas a través de una formula de calculo 
+
+
+
+_____________________________
+
+ARQUITECTURA DE SOFTWARE : 
+
+Estructura de un sistema en componentes de software
+
+Los patrones arquitectonicos están extrpolados de los lenguajes de programación
+
+"Que elementos hay y como se relacionan entre otros componentes" 
+
+
+PATRON ARQUITECTONICO : 
+describe elemento
+tipos de relaciones entre elementos
+tienen restricciones de uso.
+
+_
+expresan un esquema de organización estructural para un software.
+ 
+_
+Tienen un nivel de abstracción mayor comparada al patron de diseño.
+
+
+PATRON DE DISEÑO: 
+Son el esqueleto de soluciones, con soluciones probadas. 
+
+
+PATRON POR CAPAS: 
+
+#1 Capa de presentacion (capa UI)
+#2 Capa de aplicación (capa de  servicio)
+#3 Capa de lógica de negocio(capa dominio) 
+#4 Capa de acceso a datos (conocida como persistencia)
+
+____________
+
+PATRON CLIENTE SERVICIO:
+
+servidor
+multiples clientes 
+
+
+
+Patron BUS EVENTO : 
+ejemplo notificaciones del movil 
+conformado por : 
+
+fuente de evento 
+
+escucha de evento 
+
+canal
+
+bus de evento 
+
+MVVM
+Angular implementa eso
+
+View pide datos a View Model recibe peticion y traspasa a Model 
+
+Model regresa a View Model y se lo da a View
+
+_____________
+
+Patron de diseño  Singleton: 
+
+es un objeto que solo permite 1 copia a lo largo del todo programa: 
+
+ lo que es estático es singleton 
+
+
+PATRON FACTORY: 
+
+centraliza una clase constructora
+
+la creacion de objetos de tipo determinado.
+ 
+
+`PATRON PROTYPE 
+permite crear nuevos objetos clonando instancias existentes
+
+
+PATRON ADAPTADOR
+tiene que estar justificado, requiere tiempo e inversion y mantenimiento
+
+
+
+PATRON DECORADOR:
+Añadir funcionalidad extra a un objeto
+(dinamico o estático) sin modificar el comportamiento del resto del objeto
+	
+
+PATRON OBSERVER
+(es el más de moda de todos) 
+
+objeto que es capaz de suscribirse a una serie de eventos que otro objeto va a emitir (o ejecutar)  
+
+
+_______________________________________________________________
+
+CONTROL DE VERSIONES :
+
+Gestión de diversos cambios que se realizan. 
+
+Mecanismo para almecanamiento de los elmentos que deba gestionar
+
+registro historico de cambios.
+
+¿Que tiene un control de versiones?
+
+Repositario: 
+contiene la historia de diferentes versiones en el tiempo.
+
+Branch: 
+
+Commit 
+(tag) 
+
+Versionado:
+
+Colaboración:
+
+
+URL -> ubicación física del repositorio
+
+
+.gitignore, Git comenzará a ignorarlos desde ese momento. No los elimina del repositorio.
+
+
+______________________________________________________
+CLASE MICROSERVICIOS: 
+¿qué es?
+Patrón de arquitectura (MSA)
+
+una app de pequeños servicios.
+
+se comunican mayormente por HTTP
+
+procesos indepedientes.
+
+Tampoco tienen interfaz gráfica ya que es un aplicativo.
+
+Da un poco lo mismo como esté desarrollado un microservicio porque como sigue un estandar al comunicarse, con un http
+
+
+[]
+"los microservicios son sustantivos"
+ejm : generar una factura, enviar factura, renovar factura 
+[]
+
+
+______
+
+ARQUITECTURA MONOLITICA VS MICROSERVICIOS
+
+La lógical de negocio está separada
+
+es más fácil de escalar de equipos multifuncionales
+
+En la monolítica la APP es todo un conjunto con multiples funciones
+
+El micrsoervicio tendrá funciones independientes
+
+
+[]Una api es un conjunto de microservicios[]
+
+_____
+
+CRUD
+¿QUÉ ES?
+acciones que vamos a asociar a los microservicios.
+C Create
+R Read bzw. review (leer)
+U Update (subir)
+D Delete (borrar)
+
+La página web solo usan POST y GET 
+(ver grafico de que es CRUD II) 
+
+ejm de End-Point y código de estado.
+            
+Read: Get
+Create: Post
+Update: Put
+Delete: Delete
+
+Los End Pints == URLS
+
+los 3xx -> redireccion 
+los 4xx -> error cliente
+los 5xx -> cuando el error de servidor de nuestro            microservicios  
+
+
+__
+Filtrado y paginacion de datos
+
+Un microservicio puede permitir que pase un filtro en la cadena de consulta de URL 
+
+API DE MICROSOFT GRAPH
+_____
+Serialziaciñon de Objetos 
+
+convertir un objeto a una secuencia de bytes 
+
+Serializacion BINARIA:
+se puede hacer en 3 sistemas iguales
+
+Serialización XML 
+
+solo hace series de propiedades y atributos públicos
+
+
+Serialización JSON
+
+estandar abierto que se usa para compartir en datos web.
+Serializamos las peopiedades y atributos
+

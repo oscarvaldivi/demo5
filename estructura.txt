@@ -1,0 +1,64 @@
+Nombre
+Cargo
+Ubicación 
+
+proyectos realizados
+______
+
+(en una tabla)
+tarifa aproximada  - Experiencia - Tasa de respuesta - tiempo de respuesta
+
+________________
+(tabla en la derecha) 
+boton de "proponer un proyecto.
+texto pequeño : El proyecto sólo comenzará si aceptas el presupuesto de Gonzalo.
+
+Añadir a mis favoritos
+
+Disponibilidad confirmada
+_________________________
+
+"texto sobre lo que busca el freenlance" 
+
+ITEM  1                        ITEM 2  
+[busca proyectos en : Java, Diseño Web, Spring, Desarrollo Back-End, JavaScript
+
+___________________________________________
+
+
+Biografía breve de FREELANCE : 
+
+PARRAFO 1
+PARRAFO 2
+
+PORTAFOLIO 
+
+IMAGEN DE PORTAFOLIO 1 - IMAGEN DE PORTAFOLIO 2 
+
+
+_____________________________________________
+
+
+EXPERIENCIA
+
+EX 1 
+
+EX 2
+
+EX 3
+____________________________________________
+PROYECTOS REALIZADOS EN LA PLATAFORMA 
+
+PROYECTO 1 
+
+PROYECTO 2 
+
+PROYECTO 3
+___________________________________________
+RECOMENDACIONES
+
+XXXXXX
+
+____________________________________________
+
+FORMACIONES
