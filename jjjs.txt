@@ -1,0 +1,9 @@
+let user = 'Freddy'
+
+const sayHello = function(name) {
+ return 'Bienvenido ' + name 
+}
+
+sayHello(user) 
+
+amortizacion de capital 
